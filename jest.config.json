@@ -1,0 +1,9 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testPathIgnorePatterns": ["/dist/"],
+  "moduleNameMapper": {
+    "^@public/visa_subscription_manager$": "<rootDir>/src/index.ts",
+    "^@public/visa_subscription_manager/(.*)$": "<rootDir>/src/$1"
+  }
+}
